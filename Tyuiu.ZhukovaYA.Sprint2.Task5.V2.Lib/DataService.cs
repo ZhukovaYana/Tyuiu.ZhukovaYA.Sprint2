@@ -1,5 +1,4 @@
-using tyuiu.cources.programming.interfaces.Sprint2; 
- 
+ï»¿using tyuiu.cources.programming.interfaces.Sprint2;
 namespace Tyuiu.ZhukovaYA.Sprint2.Task5.V2.Lib;
 
 public class DataService : ISprint2Task5V2
@@ -7,15 +6,16 @@ public class DataService : ISprint2Task5V2
     public string FindMonthSeason(int value)
     {
         string res;
-        switch (value) {
-            case < 1: res = "Ìåñÿö äîëæåí áûòü îò 1 äî 12"; break;
+        switch (value)
+        {
+            case < 1: res = "ÐœÐµÑÑÑ† Ð´Ð¾Ð»Ð¶ÐµÐ½ Ð±Ñ‹Ñ‚ÑŒ Ð¾Ñ‚ 1 Ð´Ð¾ 12"; break;
             case 12:
-            case < 3: res = "çèìà"; break;
-            case < 6: res = "âåñíà"; break;
-            case < 9: res = "ëåòî"; break;
-            case < 12: res = "îñåíü"; break;
-            default: res = "Ìåñÿö äîëæåí áûòü îò 1 äî 12"; break;
+            case < 3: res = "Ð·Ð¸Ð¼Ð°"; break;
+            case < 6: res = "Ð²ÐµÑÐ½Ð°"; break;
+            case < 9: res = "Ð»ÐµÑ‚Ð¾"; break;
+            case < 12: res = "Ð¾ÑÐµÐ½ÑŒ"; break;
+            default: res = "ÐœÐµÑÑÑ† Ð´Ð¾Ð»Ð¶ÐµÐ½ Ð±Ñ‹Ñ‚ÑŒ Ð¾Ñ‚ 1 Ð´Ð¾ 12"; break;
         }
         return res;
     }
-} 
+}
