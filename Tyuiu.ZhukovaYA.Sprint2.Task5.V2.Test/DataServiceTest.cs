@@ -10,6 +10,6 @@ public class DataServiceTest
    { 
         DataService ds = new DataService();
         string res = ds.FindMonthSeason(11);
-        Assert.AreEqual(res, "Осень");
+        Assert.AreEqual(res, "осень");
    } 
 } 

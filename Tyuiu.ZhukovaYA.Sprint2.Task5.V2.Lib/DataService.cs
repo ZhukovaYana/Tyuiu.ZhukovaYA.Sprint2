@@ -20,7 +20,7 @@ public class DataService : ISprint2Task5V2
             case 10: res = "осень"; break;
             case 11: res = "осень"; break;
             case 12: res = "зима"; break;
-            default: res = null; break;
+            default: res = "ћес€ц должен быть от 1 до 12"; break;
         }
         return res;
     }
