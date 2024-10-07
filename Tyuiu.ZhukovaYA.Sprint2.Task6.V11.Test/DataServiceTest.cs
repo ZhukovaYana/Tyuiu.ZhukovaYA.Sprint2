@@ -10,6 +10,6 @@ public class DataServiceTest
    { 
         DataService ds = new DataService();
         string res = ds.FindDateOfNextDay(2024,12,31);
-        Assert.AreEqual(res, "2025.1.1");
+        Assert.AreEqual(res, "01.01.2025");
    } 
 } 
