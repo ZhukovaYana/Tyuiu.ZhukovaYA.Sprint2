@@ -7,18 +7,18 @@ public class DataService : ISprint2Task5V2
     public string FindMonthSeason(int value)
     {
         switch (value) {
-            case 1: return "Зима";
-            case 2: return "Зима";
-            case 3: return "Весна";
-            case 4: return "Весна";
-            case 5: return "Весна";
-            case 6: return "Лето";
-            case 7: return "Лето";
-            case 8: return "Лето";
-            case 9: return "Осень";
-            case 10: return "Осень";
-            case 11: return "Осень";
-            case 12: return "Зима";
+            case 1: return "зима";
+            case 2: return "зима";
+            case 3: return "весна";
+            case 4: return "весна";
+            case 5: return "весна";
+            case 6: return "лето";
+            case 7: return "лето";
+            case 8: return "лето";
+            case 9: return "осень";
+            case 10: return "осень";
+            case 11: return "осень";
+            case 12: return "зима";
             default: return "Такого месяца нет";
         }
     }
